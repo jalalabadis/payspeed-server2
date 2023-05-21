@@ -5,11 +5,23 @@
 
 
 .Archivo-dlr{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Anton', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
 }
+.Archivo-dlsr{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Archivo-dsrt{
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    }
 .Archivo-df{
 font-weight: 400;
 font-family: 'Anton', sans-serif;
@@ -22,6 +34,14 @@ font-family: 'Secular One', sans-serif;
 
 }
 
+
+.Kreon-dfs{
+    font-size: 12px;
+    font-family: 'Kreon', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    }
+
 .Red-Hat-df{
     font-family: 'Baloo 2', cursive;
 font-family: 'Josefin Sans', sans-serif;
@@ -33,6 +53,13 @@ font-weight: 600;
 font-family: 'Kreon', serif;
 font-family: 'Montserrat', sans-serif;
 }
+
+.Montserrat-dsty{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Kreon', serif;
+    font-family: 'Montserrat', sans-serif;
+    }
 
 .Montserrat-ds{
 font-weight: 600;

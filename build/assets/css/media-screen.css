@@ -44,7 +44,7 @@ font-size: 34px;
     height: 90px;
   }
   .slider img {
-height: 85px;
+height: auto;
   }
   .dot {
   height: 10px;

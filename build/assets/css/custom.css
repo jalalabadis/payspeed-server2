@@ -160,7 +160,7 @@ font-weight: 600;
 
 .slider img {
   width: 100%;
-  height: auto;
+  height: 180px;
   position: absolute;
   top: 0;
   left: 0;
@@ -286,7 +286,7 @@ font-weight:bold;
 .pending{
   background: #ff9100;
   color: #ffff;
-  padding: 5px;
+  padding: 5px 5px 4px;
   border-radius: 6px;
   font-size: 10px;
   text-transform: capitalize;
@@ -294,7 +294,7 @@ font-weight:bold;
 .completed{
   background: #029b17;
   color: #ffff;
-  padding: 5px;
+  padding: 5px 5px 4px;
   border-radius: 6px;
   font-size: 10px;
   text-transform: capitalize;
@@ -303,7 +303,7 @@ font-weight:bold;
 .cancel{
   background: #be4b1d;
   color: #ffff;
-  padding: 5px;
+  padding: 5px 5px 4px;
   border-radius: 6px;
   font-size: 10px;
   text-transform: capitalize;
@@ -316,10 +316,13 @@ font-weight:bold;
 .footer-custom-hkj{
   width: 100%;
   height: 60px; 
-  background-image: radial-gradient(circle 32px at 50% 0, transparent 300px, #359D3A 5px);
-  box-shadow: 0 -5px 15px -5px rgba(0, 0, 0, 0.753);
+  background-image: radial-gradient(circle 46px at 50% -8%, transparent 38px, #359D3A 5px);
 }
 
+.footer-custom-hkj::after{
+  position: absolute;
+  box-shadow: 0 -5px 15px -5px rgba(0, 0, 0, 0.753);
+}
 
 .footer-custom-hkj a{
   text-decoration: none;
@@ -488,6 +491,46 @@ margin-left: 5px;
 .custom-field .check-icon {
   position: absolute;
   right: var(--field-padding);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Tow */
+.custom-field.tow input {
+  background: none;
+  border: 2px solid #c9c9c9;
+  transition: border-color 0.3s ease;
+  padding-left: 40px;
+}
+
+.custom-field.tow input + .placeholder {
+  left: 40px;
+  top: 25px;
+  padding: 0 5px;
+}
+
+.custom-field.tow input.dirty,
+.custom-field.tow input:not(:placeholder-shown),
+.custom-field.tow input:focus {
+  border-color: #359D3A;
+  transition-delay: 0.1s
+}
+
+.custom-field.tow input.dirty + .placeholder,
+.custom-field.tow input:not(:placeholder-shown) + .placeholder,
+.custom-field.tow input:focus + .placeholder {
+  top: 0;
+  font-size: 10px;
+  color: #359D3A;
+  background: #ffffff;
+  opacity: 100;
+  width: auto
+}
+
+
+.custom-field .check-icon2 {
+  position: absolute;
+  left: var(--field-padding);
   top: 50%;
   transform: translateY(-50%);
 }
@@ -1425,4 +1468,17 @@ margin-top: 3px;
   padding: 10px 15px;
   border-radius: 32px;
   width: 80%;
+}
+
+.privacy-policy {
+  margin: 30px 10px;
+}
+
+.privacy-policy h2 {
+  margin-top: 30px;
+  color: #359c3a;
+}
+
+.privacy-policy p {
+  margin-bottom: 15px;
 }
