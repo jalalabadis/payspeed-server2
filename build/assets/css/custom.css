@@ -871,7 +871,7 @@ font-size: 65px;
   width: auto;
   padding: 10px 15px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.116);
-  margin-left: 270px;
+  margin: 55px 0 0  270px ;
 }
 .content-iten-section-dk .col-4{
   padding: 0 5px;
@@ -958,7 +958,7 @@ font-size: 65px;
   background: transparent;
   width: auto;
   padding: 10px 15px;
-  margin-left: 270px;
+  margin: 55px  0 0 150px;
 }
 
 /* ==============Deposit CSs================= */
