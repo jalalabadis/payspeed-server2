@@ -1,10 +1,8 @@
 #root{
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 body {
-    overflow: hidden;
-
+    overflow-x: hidden;
     /* REMOVE TAPPING HIGHLIGHT ON MOBILE */
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
     -webkit-touch-callout: none !important;

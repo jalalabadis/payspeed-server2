@@ -24,8 +24,7 @@ color: aliceblue;
 }
 /* Main conenar */
 .main-contenters{
-
-  height: 100vh;
+min-height: 110vh;
 margin: 50px 0 0 270px;
 }
 
@@ -865,9 +864,18 @@ font-size: 65px;
   font-weight: bold;
   color: #352e2ead;
 }
+
+/* Content Item Input search */
+.content-item-inputsearch-dk{
+  background: #ffffff;
+  width: auto;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.116);
+  padding: 10px 15px;
+  margin: 55px  0 0 270px;
+}
 /* Contewnt History */
 .content-iten-section-dk{
-  background: #eeeeee4b;
+  background: #ffffff;
   width: auto;
   padding: 10px 15px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.116);
@@ -952,13 +960,6 @@ font-size: 65px;
 }
 .green-dk{
   color: #359D3A;
-}
-/* Content Item Input search */
-.content-item-inputsearch-dk{
-  background: transparent;
-  width: auto;
-  padding: 10px 15px;
-  margin: 55px  0 0 150px;
 }
 
 /* ==============Deposit CSs================= */
@@ -1181,7 +1182,7 @@ color: #f5f5f5;
 
 /* Setting */
 .setting-content-dk{
-  margin-top: 20px;
+  margin-top: 65px;
   color: #000000;
   font-weight: bold;
 }
